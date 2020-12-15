@@ -17,8 +17,8 @@ h1 {text-align: center;}
 <h1 >DashBoard</h1>
 
 <button type="button" onclick="window.open('/UnivManagement/FacultyInfo.php')">View My Info</button>
-<button type="button" onclick="window.open('/index.php')"> View Couses I am teaching</button>
-<button type="button" onclick="window.open('/index.php')">Student Info</button>
+<button type="button" onclick="window.open('/UnivManagement/courses.php')"> View Couses I am teaching</button>
+<button type="button" onclick="window.open('/UnivManagement/studentinf.php')">Student Info</button>
  
 </body>
 </html>
