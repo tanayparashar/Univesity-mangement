@@ -1,3 +1,10 @@
+<!DOCTYPE html>
+	<html>
+	<BODY>
+		<H1>Course info  </H1>
+		<H3>sub-ID---name----sem------Dept------credit----Fac-Id</H3>	
+    </BODY>
+</HTML>
 <?php
     session_start();
     ?>

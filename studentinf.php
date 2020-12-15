@@ -63,7 +63,7 @@ button:hover {
 		</div>
 	
 </div>
-<div id="login">
+<div id="studres">
 <?php
 if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count($_SESSION['ERRMSG_ARR']) >0 ) {
 	foreach($_SESSION['ERRMSG_ARR'] as $msg) {
@@ -72,25 +72,19 @@ if( isset($_SESSION['ERRMSG_ARR']) && is_array($_SESSION['ERRMSG_ARR']) && count
 	unset($_SESSION['ERRMSG_ARR']);
 }
 ?>
-<form action="login.php" method="post">
+<form action="studres.php" method="post">
 
 			
 		<br>
 
 		
 <div class="input-prepend">
-		<input style="height:40px;" type="text" name="Enrollment" Placeholder="Enrollment" required/><br>
+		<input style="height:40px;" type="text" name="enrollment" Placeholder="Enrollment" required/><br>
 </div>
-
-         </form>
-         <div class="qwe">
-		 <button class="btn btn-large btn-primary btn-block pull-right" onclick="window.open('/UnivManagement/studres.php')" type="submit"><i class="icon-signin icon-large"></i> View Student</button>
+<div class="qwe">
+		 <button class="btn btn-large btn-primary btn-block pull-right" type="submit"><i class="icon-signin icon-large"></i> View Student</button>
 </div>
-<php?
-session_start();
-$var=$_POST['Enrollment'];
-$_SESSION["enrl"];
-?>
+</form>
 </div>
 </div>
 </div>
